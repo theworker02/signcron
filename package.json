@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/signcron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sign HTML/Markdown cron fragments safely for docs pipelines.",
+  "bin": {
+    "signcron": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/signcron.git"
+  },
+  "homepage": "https://theworker02.github.io/signcron/",
+  "keywords": [
+    "sign",
+    "cron",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
